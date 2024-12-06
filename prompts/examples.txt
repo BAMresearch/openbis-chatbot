@@ -1,0 +1,15 @@
+Example 1:
+User Query: "List all projects under the space 'MY_SPACE'."
+Output: {"intent": "list_projects", "space": "MY_SPACE"}
+
+Example 2:
+User Query: "What datasets are in 'Project A'?"
+Output: {"intent": "list_datasets", "project": "Project A"}
+
+Example 3:
+User Query: "Show me all experiments in 'Project B' of 'Space X'."
+Output: {"intent": "list_experiments", "project": "Project B", "space": "Space X"}
+
+Example 4:
+User Query: "How many datasets exist in total?"
+Output: {"intent": "count_datasets"}

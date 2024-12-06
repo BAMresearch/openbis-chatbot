@@ -1,0 +1,24 @@
+[
+    {
+        "query": "List all projects under the space 'MY_SPACE'.",
+        "expected_intent": "list_projects",
+        "expected_entities": {
+            "space": "MY_SPACE"
+        }
+    },
+    {
+        "query": "Show me all datasets in 'Project A'.",
+        "expected_intent": "list_datasets",
+        "expected_entities": {
+            "project": "Project A"
+        }
+    },
+    {
+        "query": "Give me all experiments in 'Project B' under 'Space X'.",
+        "expected_intent": "list_experiments",
+        "expected_entities": {
+            "project": "Project B",
+            "space": "Space X"
+        }
+    }
+]

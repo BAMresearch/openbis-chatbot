@@ -1,0 +1,14 @@
+[
+    {
+        "query": "List all projects under the space 'MY_SPACE'.",
+        "response": "Projects under MY_SPACE: PROJECT1, PROJECT2, PROJECT3"
+    },
+    {
+        "query": "Show me all datasets in 'Project A'.",
+        "response": "Datasets in Project A: DATASET1, DATASET2"
+    },
+    {
+        "query": "Give me all experiments in 'Project B' under 'Space X'.",
+        "response": "Experiments in Project B under Space X: EXPERIMENT1, EXPERIMENT2"
+    }
+]
